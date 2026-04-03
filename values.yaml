@@ -10,10 +10,9 @@ ecom-product-search:
 ecom-product-service:
   image:
     repository: saurabhgupta98989/ecom-product-service
-    tag: v1
+    tag: latest
     pullPolicy: Always
   service:
     type: LoadBalancer
     port: 80
   containerPort: 8080
-
