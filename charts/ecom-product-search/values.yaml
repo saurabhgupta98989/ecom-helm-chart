@@ -1,6 +1,7 @@
 replicaCount: 1
 image:
   repository: default/image
+  pullPolicy: Always
   tag: latest
 service:
   type: ClusterIP
