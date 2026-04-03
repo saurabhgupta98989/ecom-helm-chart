@@ -19,13 +19,13 @@ spec:
           ports:
             - containerPort: 8081
           env:
-            - name: AWS_SQS_ACCESS_KEY_ID
+            - name: AWS_SNS_ACCESS_KEY_ID
               valueFrom:
                 secretKeyRef:
                   name: aws-secret
-                  key: AWS_SQS_ACCESS_KEY_ID
-            - name: AWS_SQS_SECRET_ACCESS_KEY
+                  key: AWS_SNS_ACCESS_KEY_ID
+            - name: AWS_SNS_SECRET_ACCESS_KEY
               valueFrom:
                 secretKeyRef:
                   name: aws-secret
-                  key: AWS_SQS_SECRET_ACCESS_KEY
+                  key: AWS_SNS_SECRET_ACCESS_KEY
