@@ -1,0 +1,19 @@
+ecom-product-search:
+  image:
+    repository: saurabhgupta98989/ecom-product-search-service
+    tag: latest
+  service:
+    type: LoadBalancer
+    port: 80
+  containerPort: 8081
+
+ecom-product-service:
+  image:
+    repository: saurabhgupta98989/ecom-product-service
+    tag: v1
+    pullPolicy: Always
+  service:
+    type: LoadBalancer
+    port: 80
+  containerPort: 8080
+
