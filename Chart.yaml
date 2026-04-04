@@ -11,3 +11,6 @@ dependencies:
   - name: ecom-product-service
     version: 0.1.0
     repository: "file://charts/ecom-product-service"
+  - name: ecom-ui
+    version: 0.1.0
+    repository: "file://charts/ecom-ui"
