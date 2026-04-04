@@ -14,11 +14,10 @@ ecom-product-service:
     type: LoadBalancer
     port: 80
   containerPort: 8080
-
 ecom-ui:
   image:
     repository: saurabhgupta98989/ecom-ui
-    tag: latest
+    tag: 0.0.0
   service:
     type: LoadBalancer
     port: 80
