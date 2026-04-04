@@ -8,7 +8,7 @@ ecom-product-search:
 ecom-product-service:
   image:
     repository: saurabhgupta98989/ecom-product-service
-    tag: 0.0.3-SNAPSHOT
+    tag: 0.0.4-SNAPSHOT
   service:
     type: LoadBalancer
     port: 80
