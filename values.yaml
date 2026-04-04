@@ -5,7 +5,6 @@ ecom-product-search:
   service:
     type: LoadBalancer
     port: 80
-
 ecom-product-service:
   image:
     repository: saurabhgupta98989/ecom-product-service
@@ -13,7 +12,6 @@ ecom-product-service:
   service:
     type: LoadBalancer
     port: 80
-
 ecom-ui:
   image:
     repository: saurabhgupta98989/ecom-ui
