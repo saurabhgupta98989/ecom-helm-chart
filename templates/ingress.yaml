@@ -18,7 +18,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: ecom-product-service
+                name: ecom-app-product-service
                 port:
                   number: 80
 
@@ -27,7 +27,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: ecom-search
+                name: ecom-app-search
                 port:
                   number: 80
 
@@ -36,7 +36,7 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: ecom-ecom-ui
+                name: ecom-app-ecom-ui
                 port:
                   number: 80
 {{- end }}
