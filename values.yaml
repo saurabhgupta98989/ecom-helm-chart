@@ -3,7 +3,7 @@ ecom-product-search:
     repository: saurabhgupta98989/ecom-product-search-service
     tag: 0.0.5-SNAPSHOT
   service:
-    type: LoadBalancer
+    type: ClusterIP
     port: 80
 
 ecom-product-service:
@@ -11,7 +11,7 @@ ecom-product-service:
     repository: saurabhgupta98989/ecom-product-service
     tag: 0.0.3-SNAPSHOT
   service:
-    type: LoadBalancer
+    type: ClusterIP
     port: 80
 
 ecom-ui:
@@ -19,5 +19,10 @@ ecom-ui:
     repository: saurabhgupta98989/ecom-ui
     tag: 0.0.0
   service:
-    type: LoadBalancer
+    type: ClusterIP
     port: 80
+
+ingress:
+  enabled: true
+  host: yourdomain.com
+  certificateArn: arn:aws:acm:ap-south-1:xxxx:certificate/xxxx
