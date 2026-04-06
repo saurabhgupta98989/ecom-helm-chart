@@ -15,11 +15,10 @@ ecom-product-service:
 ecom-ui:
   image:
     repository: saurabhgupta98989/ecom-ui
-    tag: 0.0.3
+    tag: 0.0.5
   service:
     type: ClusterIP
     port: 80
-
 ingress:
   enabled: true
   host: yourdomain.com
