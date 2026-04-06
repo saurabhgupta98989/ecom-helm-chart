@@ -32,7 +32,7 @@ spec:
                   number: 80
 
           # UI (keep last)
-          - path: /
+          - path: /ui
             pathType: Prefix
             backend:
               service:
