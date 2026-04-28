@@ -15,7 +15,7 @@ ecom-product-service:
 ecom-ui:
   image:
     repository: saurabhgupta98989/ecom-ui
-    tag: 0.0.12
+    tag: 0.0.13
   service:
     type: ClusterIP
     port: 80
